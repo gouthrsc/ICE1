@@ -12,6 +12,7 @@ public class CardTrick {
        
        card1.setValue(4);
        card1.setSuit("Hearts");
+        System.out.println(card1.getValue() + " of " +card1.getSuit());
     }
     
 }
